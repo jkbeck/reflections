@@ -1,0 +1,12 @@
+How can you use the commands git log and git diff to view the history of files?
+	-Git log allows you to see when changes were made and a comment as to why.
+	-Git diff allows you to see the actual differences between two files.
+
+How might using version control make you more confident to make changes that could break something?
+	- Version control makes it easy to revert changes without having to redo work already done.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+	- Version control for my website development.
+
+What happens when you initialize a repository? Why do you need to do it?
+	- Creates .git file to allow for tracking of changes
