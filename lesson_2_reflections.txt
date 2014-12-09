@@ -1,0 +1,32 @@
+How can you use the commands git log and git diff to view the history of files?
+	-Git log allows you to see when changes were made and a comment as to why.
+	-Git diff allows you to see the actual differences between two files.
+
+How might using version control make you more confident to make changes that could break something?
+	- Version control makes it easy to revert changes without having to redo work already done.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+	- Version control for my website development.
+
+What happens when you initialize a repository? Why do you need to do it?
+	- Creates .git file to allow for tracking of changes
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+	- It gives you a place to put files that are ready for commit until all files for the current commit are ready.
+
+How can you use the staging area to make sure you have one commit per logical change?
+	- Verify all files in the staging area belong to the same commit. Use git diff if necessary.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	- When you want to make changes in parallel with the actual working code for experiment or new features.
+
+How do the diagrams help you visualize the branch structure?
+	- Allows me to visually track changes and branches to better understand the code progression.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+	- The branches are no longer separate but merge and result in a single branch. 
+	- Represented as such because it is visually accurate.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+	- Pro - faster than comparing manually
+	- Con - may flag conflicts that would be obvious to the programmer as a non-issue.
